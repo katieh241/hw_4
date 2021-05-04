@@ -12,7 +12,7 @@ class TestCase (unittest.TestCase):
         self.assertEqual(name.name("Katie", "Holmes"), "Katie Holmes")
 
     def test_4(self):
-        self.assertEqual(name.name("Katie" "Holmes"), "KatieHolmes") 
+        self.assertEqual(name.name("Katie","Holmes"), "KatieHolmes") 
     
 if __name__ == '__main__':
     unittest.main(verbosity=2)
