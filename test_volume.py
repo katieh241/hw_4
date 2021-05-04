@@ -9,6 +9,9 @@ class TestCase (unittest.TestCase):
         self.assertEqual(volume.volume(-2),1)
 
     def test_3(self):
+        self.assertEqual(volume.volume(5),125) 
+
+    def test_4(self):
         self.assertEqual(volume.volume(5),25) 
 
 if __name__ == '__main__':
